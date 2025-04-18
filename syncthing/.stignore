@@ -1,0 +1,32 @@
+# Ignore all hidden files and directories
+.*
+!.stfolder
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.bak
+*.old
+
+# Ignore system files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Ignore log files
+*.log
+
+# Ignore build artifacts
+*.o
+*.obj
+*.class
+*.pyc
+*.pyo
+node_modules/
+dist/
+build/
+
+# Ignore version control directories
+.git/
+.hg/
+.svn/
